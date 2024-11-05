@@ -1,0 +1,176 @@
+.card7 {
+    perspective: 1000px;/* Evita que al girar la imagen no sobresalga */
+}
+
+.card-inner7 {
+    position: relative;
+    top: 0px; left: 100px; 
+    width: 300px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.card7:hover .card-inner7 {
+    transform: rotateY(180deg);
+}
+
+.card-front7, .card-back7 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /*determina si la cara posterior de un elemento es visible de frente al usuario.*/
+    border-radius: 8px;
+    overflow: hidden; /* Evita que las imágenes sobresalgan del contenedor */
+}
+
+.card-front7 {
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.card-back7 {
+    background: #333;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    transform: rotateY(180deg);
+}
+
+.card-front7 img, .card-back7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+}  
+
+
+
+.card8 {
+    perspective: 1000px;/* Evita que al girar la imagen no sobresalga */
+}
+
+.card-inner8 {
+    position: relative;
+    top: -200px; left: 500px; 
+    width: 300px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.card8:hover .card-inner8 {
+    transform: rotateY(180deg);
+}
+
+.card-front8, .card-back8 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /*determina si la cara posterior de un elemento es visible de frente al usuario.*/
+    border-radius: 8px;
+    overflow: hidden; /* Evita que las imágenes sobresalgan del contenedor */
+}
+
+.card-front8 {
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.card-back8 {
+    background: #333;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    transform: rotateY(180deg);
+}
+
+.card-front8 img, .card-back8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+}  
+
+
+
+.card9 {
+    perspective: 1000px;/* Evita que al girar la imagen no sobresalga */
+}
+
+.card-inner9 {
+    position: relative;
+    top: -400px; left: 900px; 
+    width: 300px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.card9:hover .card-inner9 {
+    transform: rotateY(180deg);
+}
+
+.card-front9, .card-back9 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /*determina si la cara posterior de un elemento es visible de frente al usuario.*/
+    border-radius: 8px;
+    overflow: hidden; /* Evita que las imágenes sobresalgan del contenedor */
+}
+
+.card-front9 {
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.card-back9 {
+    background: #333;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    transform: rotateY(180deg);
+}
+
+.card-front9 img, .card-back9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+}  
+
+.pre7  {
+    background-color: #ffffff; 
+
+    padding:0px; 
+    width: 300px;
+    height: 0px; 
+    margin: 100px;
+    position: absolute; 
+    top: 680px; left: 0px; 
+    font-family: Arial;
+    font-size: 18px;
+           }    
+ 
+           .pre8 {
+            background-color: #ffffff; 
+        
+            padding:0px; 
+            width: 300px;
+            height: 0px; 
+            margin: 100px;
+            position: absolute; 
+            top: 680px; left: 410px; 
+            font-family: Arial;
+            font-size: 18px;
+                   }  
+                   .pre9  {
+                    background-color: #ffffff; 
+                
+                    padding:0px; 
+                    width: 300px;
+                    height: 0px; 
+                    margin: 100px;
+                    position: absolute; 
+                    top: 680px; left: 800px; 
+                    font-family: Arial;
+                    font-size: 18px;
+                           }  

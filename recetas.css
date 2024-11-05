@@ -1,0 +1,34 @@
+.recetas {
+    background-color: #ffffff; 
+
+    padding:0px; 
+    width: 900px;
+    height: 0px; 
+    margin: 100px;
+    position: absolute; 
+    top: 320px; left: 0px; 
+    font-family: Arial,sans-serif;
+    font-size: 50px; 
+}
+.imgreceta {
+    background-color: #ffffff; 
+    padding:0px; 
+    width: 400px;
+    height: 200px; 
+    margin: 100px;
+    position: absolute; 
+    top: 430px; left: 80px; 
+    font-family: Arial,sans-serif; 
+    
+}
+.imggalleta {
+    background-color: #ffffff; 
+    padding:0px; 
+    width: 400px;
+    height: 200px; 
+    margin: 100px;
+    position: absolute; 
+    top: 430px; left: 680px; 
+    font-family: Arial,sans-serif; 
+    
+}

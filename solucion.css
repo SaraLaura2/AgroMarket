@@ -1,0 +1,36 @@
+.so {
+    background-color: #ffffff; 
+
+    padding:0px; 
+    width: 900px;
+    height: 0px; 
+    margin: 100px;
+    position: absolute; 
+    top: 300px; left: 290px; 
+    font-family: Arial,sans-serif;
+    font-size: 50px; 
+}
+.solucion {
+    background-color: #ffffff; 
+
+    padding:0px; 
+    width: 900px;
+    height: 0px; 
+    margin: 100px;
+    position: absolute; 
+    top: 400px; left: 0px; 
+    font-family: Arial,sans-serif;
+    font-size: 25px; 
+}
+.solucion2 {
+    background-color: #ffffff; 
+
+    padding:0px; 
+    width: 900px;
+    height: 0px; 
+    margin: 100px;
+    position: absolute; 
+    top: 850px; left: 0px; 
+    font-family: Arial,sans-serif;
+    font-size: 25px; 
+}

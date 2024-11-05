@@ -1,0 +1,36 @@
+.caja2 {
+    background-color: #ffffff; 
+
+    padding:0px; 
+    width: 900px;
+    height: 0px; 
+    margin: 100px;
+    position: absolute; 
+    top: 320px; left: -30px; 
+    font-family: Arial,sans-serif;
+    font-size: 20px; 
+}
+.caja3 {
+    background-color: #ffffff; 
+
+    padding:0px; 
+    width: 900px;
+    height: 0px; 
+    margin: 100px;
+    position: absolute; 
+    top: 400px; left: -30px; 
+    font-family: Arial,sans-serif;
+    font-size: 15px; 
+}
+.caja4 {
+    background-color: #ffffff; 
+
+    padding:0px; 
+    width: 900px;
+    height: 0px; 
+    margin: 100px;
+    position: absolute; 
+    top: 600px; left: -30px; 
+    
+    
+}

@@ -1,0 +1,313 @@
+.lac  {
+    background-color: #ffffff; 
+
+    padding:0px; 
+    width: 0px;
+    height: 0px; 
+    margin: 100px;
+    position: absolute; 
+    top: 280px; left: 0px; 
+    font-family: Arial,sans-serif;
+    font-size: 50px;
+}
+
+.card10 {
+    perspective: 1000px;/* Evita que al girar la imagen no sobresalga */
+}
+
+.card-inner10 {
+    position: relative;
+    top:100px; left: 100px; 
+    width: 300px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.card10:hover .card-inner10 {
+    transform: rotateY(180deg);
+}
+
+.card-front10, .card-back10 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /*determina si la cara posterior de un elemento es visible de frente al usuario.*/
+    border-radius: 8px;
+    overflow: hidden; /* Evita que las imágenes sobresalgan del contenedor */
+}
+
+.card-front10 {
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.card-back10 {
+    background: #333;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    transform: rotateY(180deg);
+}
+
+.card-front10 img, .card-back10 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+}  
+
+
+
+.card11 {
+    perspective: 1000px;/* Evita que al girar la imagen no sobresalga */
+}
+
+.card-inner11 {
+    position: relative;
+    top: -100px; left: 500px; 
+    width: 300px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.card11:hover .card-inner11 {
+    transform: rotateY(180deg);
+}
+
+.card-front11, .card-back11 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /*determina si la cara posterior de un elemento es visible de frente al usuario.*/
+    border-radius: 8px;
+    overflow: hidden; /* Evita que las imágenes sobresalgan del contenedor */
+}
+
+.card-front11 {
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.card-back11 {
+    background: #333;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    transform: rotateY(180deg);
+}
+
+.card-front11 img, .card-back11 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+}  
+
+
+
+.card12 {
+    perspective: 1000px;/* Evita que al girar la imagen no sobresalga */
+}
+
+.card-inner12 {
+    position: relative;
+    top: -300px; left: 900px; 
+    width: 300px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.card12:hover .card-inner12 {
+    transform: rotateY(180deg);
+}
+
+.card-front12, .card-back12 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /*determina si la cara posterior de un elemento es visible de frente al usuario.*/
+    border-radius: 8px;
+    overflow: hidden; /* Evita que las imágenes sobresalgan del contenedor */
+}
+
+.card-front12 {
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.card-back12 {
+    background: #333;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    transform: rotateY(180deg);
+}
+
+.card-front12 img, .card-back12 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+}  
+
+
+.card13 {
+    perspective: 1000px;/* Evita que al girar la imagen no sobresalga */
+}
+
+.card-inner13 {
+    position: relative;
+    top: -200px; left: 100px; 
+    width: 300px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.card13:hover .card-inner13 {
+    transform: rotateY(180deg);
+}
+
+.card-front13, .card-back13 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /*determina si la cara posterior de un elemento es visible de frente al usuario.*/
+    border-radius: 8px;
+    overflow: hidden; /* Evita que las imágenes sobresalgan del contenedor */
+}
+
+.card-front13 {
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.card-back13 {
+    background: #333;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    transform: rotateY(180deg);
+}
+
+.card-front13 img, .card-back13 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+}  
+
+.card14 {
+    perspective: 1000px;/* Evita que al girar la imagen no sobresalga */
+}
+
+.card-inner14 {
+    position: relative;
+    top:-400px; left: 500px; 
+    width: 300px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.card14:hover .card-inner14 {
+    transform: rotateY(180deg);
+}
+
+.card-front14, .card-back14 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /*determina si la cara posterior de un elemento es visible de frente al usuario.*/
+    border-radius: 8px;
+    overflow: hidden; /* Evita que las imágenes sobresalgan del contenedor */
+}
+
+.card-front14 {
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.card-back14 {
+    background: #333;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    transform: rotateY(180deg);
+}
+
+.card-front14 img, .card-back14 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+}  
+
+
+
+
+
+
+
+
+
+
+.pre10  {
+    background-color: #ffffff; 
+
+    padding:0px; 
+    width: 300px;
+    height: 0px; 
+    margin: 100px;
+    position: absolute; 
+    top: 630px; left: 10px; 
+    font-family: Arial;
+    font-size: 18px;
+           }    
+ 
+           .pre11{
+            background-color: #ffffff; 
+        
+            padding:0px; 
+            width: 300px;
+            height: 0px; 
+            margin: 100px;
+            position: absolute; 
+            top: 630px; left: 410px; 
+            font-family: Arial;
+            font-size: 18px;
+                   }  
+                   .pre12 {
+                    background-color: #ffffff; 
+                
+                    padding:0px; 
+                    width: 300px;
+                    height: 0px; 
+                    margin: 100px;
+                    position: absolute; 
+                    top: 630px; left: 900px; 
+                    font-family: Arial;
+                    font-size: 18px;
+                           }  
+                           .pre13 {
+                            background-color: #ffffff; 
+                        
+                            padding:0px; 
+                            width: 300px;
+                            height: 0px; 
+                            margin: 100px;
+                            position: absolute; 
+                            top: 920px; left: 0px; 
+                            font-family: Arial;
+                            font-size: 18px;
+                                   }  
+                                   .pre14  {
+                                    background-color: #ffffff; 
+                                
+                                    padding:0px; 
+                                    width: 300px;
+                                    height: 0px; 
+                                    margin: 100px;
+                                    position: absolute; 
+                                    top: 920px; left: 400px; 
+                                    font-family: Arial;
+                                    font-size: 18px;
+                                           }  
